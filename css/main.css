@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, serif;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 25px;
+    font-family: "Arial", serif;
+    text-align: center;
+    color: #333;
+    text-shadow: 2px 1px rgba(0, 0, 0, .2);
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+
+}
+
+p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.logo-wrapper {
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+.form-control {
+    margin: 10px;
+    height: 50px;
+    width: 100%;
+}
+
+#review_form .form-control {
+    width: 500px;
+}
+
+#recall_form .form-control {
+    width: 500px;
+}
+
+#advantages {
+    border-top: 55px solid transparent;
+    margin-top: -55px;
+    padding-bottom: 50px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+#recall {
+    border-top: 55px solid transparent;
+    margin-top: -55px;
+}
+
+#advantages p {
+    font-size: 14px;
+    padding: 0 10px 10px 10px;
+    margin: 0 10px 10px 10px;
+}
+
+#opacitytext {
+    opacity: 0.8;
+    background: #000000;
+}
+
+#headerwrap {
+
+    border-top: 55px solid transparent;
+    margin-top: -55px;
+    padding: 15px; /* паддинги - без проблем */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+
+    background: url(../images/blur1.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#buy {
+    padding-top: 50px;
+    color: white;
+    background: url(../images/blur1.jpg) no-repeat fixed center center;
+    padding-bottom: 40px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+#data {
+    font-size: 13px;
+    margin-left: 12px;
+    text-shadow: 3px 1px rgba(0, 0, 0, .2);
+}
+
+#form_button {
+    width: 300px;
+}
+
+#headphones {
+    margin-top: 150px;
+    height: 140px;
+    width: 230px;
+}
+
+#lined {
+    text-decoration: line-through;
+    color: white;
+    font-size: 35px;
+    text-shadow: 3px 3px rgba(0, 0, 0, .2);
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#contacts {
+  background: #2d2d2d;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 2px;
+}
+
+.work {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+
+.advantages {
+    width: 85px;
+    height: 85px;
+    padding: 5px;
+}
+
+.whiteHeader {
+    margin: 20px 0;
+    color: white;
+    text-shadow: 3px 3px rgba(0, 0, 0, .2);
+}
+
+.centered {
+    text-align: center;
+}
+
+a {
+    color: #f85c37;
+}
+
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-text {
+    margin-left: 120px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.navbar-inverse {
+    background-color: #2d2d2d;
+    border-color: #2d2d2d;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    border-radius: 3px;
+    background-color: dodgerblue;
+}
+
+.btn-danger {
+    background-color: #ea171d;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    box-shadow: 3px 3px 20px -5px #000000;
+}
+
+.btn-primary {
+    font-size: 22px;
+    font-weight: bold;
+    width: 500px;
+    height: 80px;
+    box-shadow: 3px 3px 20px -5px #000000;
+}
+
+.col-lg-0 {
+    font-size: 22px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.chars-table {
+    table-layout: fixed;
+    line-height: 1.3;
+    color: black;
+    font-size: 16px;
+    align-content: center;
+    margin: auto;
+}
+
+.chars-table b {
+    color: black;
+    text-shadow: 3px 1px rgba(0, 0, 0, .2);
+}
+
+.chars-table td {
+    padding: 15px
+}
+
+.chars-table td:first-child {
+    width: 40%
+}
+
+.container.custom-container {
+    padding: 0 50px;
+    margin: 0;
+}
+
+.bottom {
+    margin-top: 150px;
+}
+
+#f {
+    background: #2d2d2d;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#f i {
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#f i:hover {
+    color: #ff7878;
+}
+
+.descpic {
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+}
+
+.whiteStyle {
+    background: white;
+    box-shadow: 2px 0 20px -5px #000000;
+    -webkit-box-shadow: black;
+    padding: 20px 20px 50px;
+}
+
+.container {
+    padding: 10px;
+}
+
+#buy_form .form-control {
+    width: 300px;
+}
+
+.footer {
+
+    padding: 20px;
+    background: #2d2d2d;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+.error-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.error-actions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.error-actions .btn {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+    .main-text > h2 {
+        padding-top: 60px;
+    }
+}
+
+#reviews {
+    border-top: 55px solid transparent;
+    margin-top: -55px;
+
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+#desc {
+  border-top: 55px solid transparent;
+  margin-top: -55px;
+  background: url(../images/blur1.jpg) no-repeat fixed center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cover_photo {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.transButton {
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.btn-white {
+    width: 300px;
+    height: 80px;
+    font-size: 16px;
+    background-color: white;
+}
+
+#colorChoose {
+  background: url(../images/blur3.jpg) no-repeat fixed center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#whyBuy {
+
+    background: url(../images/blur1.jpg) no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#whyBuy p {
+    color: white;
+}
+
+#delivery p {
+  font-size: 20px; margin-left: 80px; margin-right: 80px;
+}
+
+@media (max-width: 960px) {
+
+    h1 {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .cover_photo {
+        display: inline-block;
+        width: 90%;
+        height: 90%;
+    }
+
+    #delivery p {
+      font-size: 16px; margin-top: 30px; margin-left: 40px; margin-right: 40px;
+    }
+
+    #headerwrap {
+        margin-top: -55px;
+        background: url(../images/blur1.jpg) no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #headerwrap #lined {
+        font-size: 30px;
+    }
+
+    #buy {
+        margin-top: 0px;
+        background: url(../images/blur1.jpg) no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .bottom {
+        margin-bottom: 20px;
+    }
+
+    .centered {
+        margin-top: 0;
+    }
+
+    #headphones {
+        margin-top: 20px;
+        height: 80px;
+        width: 150px;
+    }
+
+    #text1 {
+        margin-top: 5px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .text-left {
+        font-size: 15px;
+    }
+
+    body {
+        font-size: 1.2rem;
+    }
+
+    #fstyle {
+        margin-left: 0px;
+    }
+
+    #review_form .form-control {
+        width: 300px;
+    }
+
+    #recall_form .form-control {
+        width: 300px;
+    }
+
+    #buy_form .form-control {
+        width: 300px;
+    }
+
+    .btn-primary {
+        font-size: 22px;
+        font-weight: bold;
+        width: 300px;
+        height: 80px;
+    }
+
+    .eTimer {
+        width: 80%;
+    }
+
+    #whyBuy {
+        background: url("../images/blur2.jpg") no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .nav > li > a {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+}
+
+.parent {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.gallery {
+  margin: 10px 50px;
+}
+
+#gallery {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.small_gallery_image {
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+  transition: 1s;
+  border-radius: 10px;
+}
+
+.small_gallery_image:hover {
+  transform: scale(1.1);
+}
