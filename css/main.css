@@ -103,8 +103,7 @@ p {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 
-    /*background: url(../images/blur1.jpg) no-repeat center center fixed;*/
-    background: whitesmoke;
+    background: url(../images/Marron-Mixed-High-resolution-blurr-background1.jpg) no-repeat center center fixed;
     background-repeat: no-repeat;
     padding-top: 20px;
 
@@ -481,8 +480,6 @@ a:hover, a:focus {
 
     #headerwrap {
         margin-top: -55px;
-        /*background: url(../images/blur1.jpg) no-repeat center;*/
-        background: whitesmoke;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
