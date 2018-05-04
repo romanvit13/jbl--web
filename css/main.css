@@ -916,6 +916,10 @@ a:hover, a:focus {
         margin-bottom: -30px;
     }
 
+    #charge2h1 {
+        margin-top: 200px;
+    }
+
     #delivery p {
         font-size: 16px;
         margin-top: 30px;
