@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AVANTURA.iml" filepath="$PROJECT_DIR$/.idea/AVANTURA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jbl--web.iml" filepath="$PROJECT_DIR$/.idea/jbl--web.iml" />
     </modules>
   </component>
 </project>
